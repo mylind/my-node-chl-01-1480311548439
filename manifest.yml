@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: my-node-chl-01
+  host: my-node-chl-01
+  disk_quota: 1024M
+  services:
+  - performance-monitoring-auto
+  - Cloudant NoSQL DB-aj
+  - Visual Recognition-mc
+  - Single Sign On-41
+  - Compose for Elasticsearch-o9
