@@ -11,7 +11,7 @@
     "json2csv": "*",
     "log": "*",
     "fs": "0.0.2",
-    "pkgcloud": "^1.4.0"
+    "pkgcloud": "1.4.0"
   },
   "repository": {},
   "engines": {
