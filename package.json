@@ -13,7 +13,8 @@
     "fs": "0.0.2",
     "pkgcloud": "1.4.0",
     "azure": ">= 0.5.1",
-    "mysql": "*"
+    "mysql": "*",
+    "lwip": "*"
   },
   "repository": {},
   "engines": {
