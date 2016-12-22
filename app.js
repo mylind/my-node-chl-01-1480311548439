@@ -37,9 +37,18 @@ app.get( '/testmysql', function(req, res) {
     	if(err){
       		console.log('Error connecting to Db');
       		console.log(err);
-      		return;
+      		return res.json( {
+      			'output': {
+        			'text': 'Connection failed! err: ' + err
+      			}
+    		});
     	}
     	console.log('Connection established');
+    	return res.json( {
+      		'output': {
+        		'text': 'Connection established'
+      		}
+    	});
 	});
   
 } );
