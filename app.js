@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/public'));
 var appEnv = cfenv.getAppEnv();
 
 // Endpoint to be call from the client side
-app.post( '/testmysql', function(req, res) {
+app.get( '/testmysql', function(req, res) {
 	var con = mysql.createConnection({
   		host     : '192.155.247.248',
   		user     : 'uRQd51HYZopqO',
