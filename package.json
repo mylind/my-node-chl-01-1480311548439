@@ -14,7 +14,8 @@
     "pkgcloud": "1.4.0",
     "azure": ">= 0.5.1",
     "mysql": "*",
-    "lwip": "*"
+    "lwip": "*",
+    "pm2": "*"
   },
   "repository": {},
   "engines": {
